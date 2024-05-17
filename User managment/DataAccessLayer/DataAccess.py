@@ -19,7 +19,7 @@ class DataAccess:
     
             """, [username, password]).fetchone()
             user = User(data[0],data[1],data[2],data[3],None,data[5],data[6])
-
+            print(user.firstName)
             return user
     def get_all_users(self):
         with sqlite3.connect("database.db") as connection:

@@ -1,4 +1,4 @@
-from tkinter import Frame, Label, Entry, Button, END
+from ttkbootstrap import Frame, Label, Entry, Button, END
 from BusinessLayer.RegisterBusiness import Registerclass
 
 
